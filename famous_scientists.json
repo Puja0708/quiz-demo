@@ -1,0 +1,969 @@
+{
+"_id": "55f640c0846dc2362818223c",
+"quizId": "54bf36fb15eaaa570c9ed5a2",
+"quizName": "Famous Scientists(Sample Report)",
+"createdAt": "2015-09-14T03:55:50.959Z",
+"gameType": "live",
+"gameState": "completed",
+"expiry": 0,
+"players": [
+{
+"id": "Sam",
+"isOver": true,
+"monster": "6",
+"started": "2015-09-14T03:46:31.813Z",
+"score": 5170,
+"_id": "55f64546846dc23628182294"
+},
+{
+"id": "Mike",
+"isOver": true,
+"monster": "3",
+"started": "2015-09-14T03:46:31.813Z",
+"score": 6010,
+"_id": "55f64546846dc23628182293"
+},
+{
+"id": "Daniel",
+"isOver": true,
+"monster": "0",
+"started": "2015-09-14T03:46:31.813Z",
+"score": 6260,
+"_id": "55f64546846dc23628182292"
+},
+{
+"id": "Emilee",
+"isOver": true,
+"monster": "11",
+"started": "2015-09-14T03:46:31.813Z",
+"score": 2500,
+"_id": "55f64546846dc23628182291"
+},
+{
+"id": "Jessica",
+"isOver": true,
+"monster": "14",
+"started": "2015-09-14T03:46:31.813Z",
+"score": 4520,
+"_id": "55f64546846dc23628182290"
+},
+{
+"id": "John",
+"isOver": true,
+"monster": "32",
+"started": "2015-09-14T03:46:31.813Z",
+"score": 6020,
+"_id": "55f64546846dc2362818228f"
+},
+{
+"id": "Rohit",
+"isOver": true,
+"monster": "26",
+"started": "2015-09-14T03:46:31.813Z",
+"score": 2680,
+"_id": "55f64546846dc2362818228e"
+},
+{
+"id": "Kelly",
+"isOver": true,
+"monster": "25",
+"started": "2015-09-14T03:46:31.813Z",
+"score": 7820,
+"_id": "55f64546846dc2362818228d"
+}
+],
+"responses": [
+{
+"_id": "55f64546846dc2362818223d",
+"questionId": "54bf36fb15eaaa570c9ed5aa",
+"playerId": "Jessica",
+"time": 12800,
+"response": "3",
+"ic": true,
+"score": 820
+},
+{
+"_id": "55f64546846dc2362818223e",
+"questionId": "54bf36fb15eaaa570c9ed5ac",
+"playerId": "Daniel",
+"time": 4250,
+"response": "2",
+"ic": true,
+"score": 940
+},
+{
+"_id": "55f64546846dc2362818223f",
+"questionId": "54bf36fb15eaaa570c9ed5a5",
+"playerId": "Jessica",
+"time": 4150,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182240",
+"questionId": "54bf36fb15eaaa570c9ed5ac",
+"playerId": "Rohit",
+"time": 4550,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182241",
+"questionId": "54bf36fb15eaaa570c9ed5aa",
+"playerId": "Kelly",
+"time": 3800,
+"response": "3",
+"ic": true,
+"score": 940
+},
+{
+"_id": "55f64546846dc23628182242",
+"questionId": "54bf36fb15eaaa570c9ed5a4",
+"playerId": "Daniel",
+"time": 4100,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182243",
+"questionId": "54bf36fb15eaaa570c9ed5a6",
+"playerId": "Jessica",
+"time": 6000,
+"response": "1",
+"ic": true,
+"score": 920
+},
+{
+"_id": "55f64546846dc23628182244",
+"questionId": "54bf36fb15eaaa570c9ed5a6",
+"playerId": "Kelly",
+"time": 3700,
+"response": "1",
+"ic": true,
+"score": 950
+},
+{
+"_id": "55f64546846dc23628182245",
+"questionId": "54bf36fb15eaaa570c9ed5a7",
+"playerId": "Rohit",
+"time": 28900,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182246",
+"questionId": "54bf36fb15eaaa570c9ed5a7",
+"playerId": "Jessica",
+"time": 7800,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182247",
+"questionId": "54bf36fb15eaaa570c9ed5a3",
+"playerId": "Daniel",
+"time": 5900,
+"response": "1",
+"ic": true,
+"score": 920
+},
+{
+"_id": "55f64546846dc23628182248",
+"questionId": "54bf36fb15eaaa570c9ed5a7",
+"playerId": "Kelly",
+"time": 20550,
+"response": "3",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182249",
+"questionId": "54bf36fb15eaaa570c9ed5a9",
+"playerId": "Rohit",
+"time": 14000,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc2362818224a",
+"questionId": "54bf36fb15eaaa570c9ed5a8",
+"playerId": "Daniel",
+"time": 8400,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc2362818224b",
+"questionId": "54bf36fb15eaaa570c9ed5ab",
+"playerId": "Emilee",
+"time": 3550,
+"response": "1",
+"ic": true,
+"score": 950
+},
+{
+"_id": "55f64546846dc2362818224c",
+"questionId": "54bf36fb15eaaa570c9ed5a5",
+"playerId": "Kelly",
+"time": 10400,
+"response": "0",
+"ic": true,
+"score": 860
+},
+{
+"_id": "55f64546846dc2362818224d",
+"questionId": "54bf36fb15eaaa570c9ed5a4",
+"playerId": "Rohit",
+"time": 7900,
+"response": "2",
+"ic": true,
+"score": 890
+},
+{
+"_id": "55f64546846dc2362818224e",
+"questionId": "54bf36fb15eaaa570c9ed5aa",
+"playerId": "Sam",
+"time": 3150,
+"response": "3",
+"ic": true,
+"score": 950
+},
+{
+"_id": "55f64546846dc2362818224f",
+"questionId": "54bf36fb15eaaa570c9ed5a3",
+"playerId": "Mike",
+"time": 3700,
+"response": "1",
+"ic": true,
+"score": 950
+},
+{
+"_id": "55f64546846dc23628182250",
+"questionId": "54bf36fb15eaaa570c9ed5ab",
+"playerId": "Jessica",
+"time": 4450,
+"response": "1",
+"ic": true,
+"score": 940
+},
+{
+"_id": "55f64546846dc23628182251",
+"questionId": "54bf36fb15eaaa570c9ed5a5",
+"playerId": "Mike",
+"time": 30000,
+"response": "0",
+"ic": true,
+"score": 600
+},
+{
+"_id": "55f64546846dc23628182252",
+"questionId": "54bf36fb15eaaa570c9ed5a5",
+"playerId": "Daniel",
+"time": 9700,
+"response": "0",
+"ic": true,
+"score": 870
+},
+{
+"_id": "55f64546846dc23628182253",
+"questionId": "54bf36fb15eaaa570c9ed5a7",
+"playerId": "Emilee",
+"time": 3100,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182254",
+"questionId": "54bf36fb15eaaa570c9ed5a3",
+"playerId": "Emilee",
+"time": 2900,
+"response": "3",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182255",
+"questionId": "54bf36fb15eaaa570c9ed5a4",
+"playerId": "Kelly",
+"time": 4650,
+"response": "2",
+"ic": true,
+"score": 930
+},
+{
+"_id": "55f64546846dc23628182256",
+"questionId": "54bf36fb15eaaa570c9ed5a9",
+"playerId": "Sam",
+"time": 3000,
+"response": "3",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182257",
+"questionId": "54bf36fb15eaaa570c9ed5a3",
+"playerId": "Rohit",
+"time": 7000,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182258",
+"questionId": "54bf36fb15eaaa570c9ed5a4",
+"playerId": "Sam",
+"time": 2200,
+"response": "0",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182259",
+"questionId": "54bf36fb15eaaa570c9ed5a4",
+"playerId": "Jessica",
+"time": 7500,
+"response": "2",
+"ic": true,
+"score": 900
+},
+{
+"_id": "55f64546846dc2362818225a",
+"questionId": "54bf36fb15eaaa570c9ed5ac",
+"playerId": "Sam",
+"time": 3100,
+"response": "2",
+"ic": true,
+"score": 950
+},
+{
+"_id": "55f64546846dc2362818225b",
+"questionId": "54bf36fb15eaaa570c9ed5aa",
+"playerId": "Daniel",
+"time": 6900,
+"response": "3",
+"ic": true,
+"score": 900
+},
+{
+"_id": "55f64546846dc2362818225c",
+"questionId": "54bf36fb15eaaa570c9ed5a8",
+"playerId": "Sam",
+"time": 30000,
+"response": "3",
+"ic": true,
+"score": 600
+},
+{
+"_id": "55f64546846dc2362818225d",
+"questionId": "54bf36fb15eaaa570c9ed5ab",
+"playerId": "Kelly",
+"time": 5100,
+"response": "1",
+"ic": true,
+"score": 930
+},
+{
+"_id": "55f64546846dc2362818225e",
+"questionId": "54bf36fb15eaaa570c9ed5a6",
+"playerId": "Mike",
+"time": 7600,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc2362818225f",
+"questionId": "54bf36fb15eaaa570c9ed5aa",
+"playerId": "Emilee",
+"time": 5450,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182260",
+"questionId": "54bf36fb15eaaa570c9ed5a8",
+"playerId": "Rohit",
+"time": 12800,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182261",
+"questionId": "54bf36fb15eaaa570c9ed5a7",
+"playerId": "Daniel",
+"time": 10850,
+"response": "0",
+"ic": true,
+"score": 850
+},
+{
+"_id": "55f64546846dc23628182262",
+"questionId": "54bf36fb15eaaa570c9ed5a3",
+"playerId": "Jessica",
+"time": 7550,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182263",
+"questionId": "54bf36fb15eaaa570c9ed5a4",
+"playerId": "Emilee",
+"time": 2250,
+"response": "3",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182264",
+"questionId": "54bf36fb15eaaa570c9ed5a9",
+"playerId": "Kelly",
+"time": 14000,
+"response": "0",
+"ic": true,
+"score": 810
+},
+{
+"_id": "55f64546846dc23628182265",
+"questionId": "54bf36fb15eaaa570c9ed5ac",
+"playerId": "Emilee",
+"time": 30000,
+"response": "2",
+"ic": true,
+"score": 600
+},
+{
+"_id": "55f64546846dc23628182266",
+"questionId": "54bf36fb15eaaa570c9ed5a7",
+"playerId": "Mike",
+"time": 2500,
+"response": "0",
+"ic": true,
+"score": 960
+},
+{
+"_id": "55f64546846dc23628182267",
+"questionId": "54bf36fb15eaaa570c9ed5a6",
+"playerId": "Sam",
+"time": 8000,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182268",
+"questionId": "54bf36fb15eaaa570c9ed5ab",
+"playerId": "Rohit",
+"time": 5400,
+"response": "1",
+"ic": true,
+"score": 920
+},
+{
+"_id": "55f64546846dc23628182269",
+"questionId": "54bf36fb15eaaa570c9ed5a7",
+"playerId": "John",
+"time": 11250,
+"response": "0",
+"ic": true,
+"score": 850
+},
+{
+"_id": "55f64546846dc2362818226a",
+"questionId": "54bf36fb15eaaa570c9ed5ab",
+"playerId": "Sam",
+"time": 30000,
+"response": "1",
+"ic": true,
+"score": 600
+},
+{
+"_id": "55f64546846dc2362818226b",
+"questionId": "54bf36fb15eaaa570c9ed5ac",
+"playerId": "Mike",
+"time": 3550,
+"response": "2",
+"ic": true,
+"score": 950
+},
+{
+"_id": "55f64546846dc2362818226c",
+"questionId": "54bf36fb15eaaa570c9ed5ab",
+"playerId": "Daniel",
+"time": 9800,
+"response": "1",
+"ic": true,
+"score": 860
+},
+{
+"_id": "55f64546846dc2362818226d",
+"questionId": "54bf36fb15eaaa570c9ed5ac",
+"playerId": "Jessica",
+"time": 6850,
+"response": "3",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc2362818226e",
+"questionId": "54bf36fb15eaaa570c9ed5a9",
+"playerId": "John",
+"time": 4500,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc2362818226f",
+"questionId": "54bf36fb15eaaa570c9ed5a9",
+"playerId": "Emilee",
+"time": 3750,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182270",
+"questionId": "54bf36fb15eaaa570c9ed5ab",
+"playerId": "John",
+"time": 11250,
+"response": "1",
+"ic": true,
+"score": 850
+},
+{
+"_id": "55f64546846dc23628182271",
+"questionId": "54bf36fb15eaaa570c9ed5aa",
+"playerId": "Rohit",
+"time": 30000,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182272",
+"questionId": "54bf36fb15eaaa570c9ed5ac",
+"playerId": "Kelly",
+"time": 6200,
+"response": "2",
+"ic": true,
+"score": 910
+},
+{
+"_id": "55f64546846dc23628182273",
+"questionId": "54bf36fb15eaaa570c9ed5a4",
+"playerId": "Mike",
+"time": 3700,
+"response": "0",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182274",
+"questionId": "54bf36fb15eaaa570c9ed5ac",
+"playerId": "John",
+"time": 9100,
+"response": "2",
+"ic": true,
+"score": 870
+},
+{
+"_id": "55f64546846dc23628182275",
+"questionId": "54bf36fb15eaaa570c9ed5ab",
+"playerId": "Mike",
+"time": 9050,
+"response": "1",
+"ic": true,
+"score": 870
+},
+{
+"_id": "55f64546846dc23628182276",
+"questionId": "54bf36fb15eaaa570c9ed5a9",
+"playerId": "Daniel",
+"time": 9700,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182277",
+"questionId": "54bf36fb15eaaa570c9ed5a3",
+"playerId": "Sam",
+"time": 30000,
+"response": "1",
+"ic": true,
+"score": 600
+},
+{
+"_id": "55f64546846dc23628182278",
+"questionId": "54bf36fb15eaaa570c9ed5a5",
+"playerId": "John",
+"time": 21700,
+"response": "0",
+"ic": true,
+"score": 710
+},
+{
+"_id": "55f64546846dc23628182279",
+"questionId": "54bf36fb15eaaa570c9ed5aa",
+"playerId": "Mike",
+"time": 18000,
+"response": "3",
+"ic": true,
+"score": 760
+},
+{
+"_id": "55f64546846dc2362818227a",
+"questionId": "54bf36fb15eaaa570c9ed5a8",
+"playerId": "Jessica",
+"time": 3850,
+"response": "3",
+"ic": true,
+"score": 940
+},
+{
+"_id": "55f64546846dc2362818227b",
+"questionId": "54bf36fb15eaaa570c9ed5a5",
+"playerId": "Emilee",
+"time": 4400,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc2362818227c",
+"questionId": "54bf36fb15eaaa570c9ed5a3",
+"playerId": "Kelly",
+"time": 30000,
+"response": "1",
+"ic": true,
+"score": 600
+},
+{
+"_id": "55f64546846dc2362818227d",
+"questionId": "54bf36fb15eaaa570c9ed5a5",
+"playerId": "Rohit",
+"time": 30000,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc2362818227e",
+"questionId": "54bf36fb15eaaa570c9ed5a6",
+"playerId": "Emilee",
+"time": 28250,
+"response": "3",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc2362818227f",
+"questionId": "54bf36fb15eaaa570c9ed5a8",
+"playerId": "Mike",
+"time": 5800,
+"response": "3",
+"ic": true,
+"score": 920
+},
+{
+"_id": "55f64546846dc23628182280",
+"questionId": "54bf36fb15eaaa570c9ed5a6",
+"playerId": "Daniel",
+"time": 5700,
+"response": "1",
+"ic": true,
+"score": 920
+},
+{
+"_id": "55f64546846dc23628182281",
+"questionId": "54bf36fb15eaaa570c9ed5a4",
+"playerId": "John",
+"time": 6150,
+"response": "2",
+"ic": true,
+"score": 910
+},
+{
+"_id": "55f64546846dc23628182282",
+"questionId": "54bf36fb15eaaa570c9ed5a9",
+"playerId": "Jessica",
+"time": 5750,
+"response": "3",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182283",
+"questionId": "54bf36fb15eaaa570c9ed5a6",
+"playerId": "John",
+"time": 10150,
+"response": "2",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182284",
+"questionId": "54bf36fb15eaaa570c9ed5a5",
+"playerId": "Sam",
+"time": 30000,
+"response": "0",
+"ic": true,
+"score": 600
+},
+{
+"_id": "55f64546846dc23628182285",
+"questionId": "54bf36fb15eaaa570c9ed5a8",
+"playerId": "Emilee",
+"time": 3600,
+"response": "3",
+"ic": true,
+"score": 950
+},
+{
+"_id": "55f64546846dc23628182286",
+"questionId": "54bf36fb15eaaa570c9ed5a3",
+"playerId": "John",
+"time": 11300,
+"response": "3",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182287",
+"questionId": "54bf36fb15eaaa570c9ed5a9",
+"playerId": "Mike",
+"time": 8150,
+"response": "1",
+"ic": false,
+"score": 0
+},
+{
+"_id": "55f64546846dc23628182288",
+"questionId": "54bf36fb15eaaa570c9ed5a8",
+"playerId": "John",
+"time": 5750,
+"response": "3",
+"ic": true,
+"score": 920
+},
+{
+"_id": "55f64546846dc23628182289",
+"questionId": "54bf36fb15eaaa570c9ed5a8",
+"playerId": "Kelly",
+"time": 8000,
+"response": "3",
+"ic": true,
+"score": 890
+},
+{
+"_id": "55f64546846dc2362818228a",
+"questionId": "54bf36fb15eaaa570c9ed5a6",
+"playerId": "Rohit",
+"time": 9400,
+"response": "1",
+"ic": true,
+"score": 870
+},
+{
+"_id": "55f64546846dc2362818228b",
+"questionId": "54bf36fb15eaaa570c9ed5a7",
+"playerId": "Sam",
+"time": 9250,
+"response": "0",
+"ic": true,
+"score": 870
+},
+{
+"_id": "55f64546846dc2362818228c",
+"questionId": "54bf36fb15eaaa570c9ed5aa",
+"playerId": "John",
+"time": 6250,
+"response": "3",
+"ic": true,
+"score": 910
+}
+],
+"questions": [
+{
+"_id": "54bf36fb15eaaa570c9ed5a3",
+"questionText": "A pioneer of Alternating Current motors.",
+"questionOptions": [
+"Thomas Edison",
+"Nikola Tesla",
+"Guglielmo Marconi",
+"Louis Pasteur"
+],
+"media": {
+"type": "img",
+"url": "https://s3-us-west-2.amazonaws.com/quizizz-destination-bkt/4ac11480-f05a-4913-91bb-3d7276d81ebc.jpg"
+},
+"answerIndex": 1,
+"time": 30000,
+"type": "MCQ"
+},
+{
+"_id": "54bf36fb15eaaa570c9ed5a4",
+"questionText": "The founder of Genetics.",
+"questionOptions": [
+"Gordon Moore",
+"Robert Hooke",
+"Gregor Mendel",
+"Neils Bohr"
+],
+"media": {
+"type": "img",
+"url": "https://s3-us-west-2.amazonaws.com/quizizz-destination-bkt/9ab43808-8ce5-4205-b502-635cbce0661b.jpg"
+},
+"answerIndex": 2,
+"time": 30000,
+"type": "MCQ"
+},
+{
+"_id": "54bf36fb15eaaa570c9ed5a5",
+"questionText": "Inventor of the first practical telephone.",
+"questionOptions": [
+"Alexander Graham Bell",
+"Steve Jobs",
+"James Clerk Maxwell",
+"Pierre Curie"
+],
+"media": {
+"type": "img",
+"url": "https://s3-us-west-2.amazonaws.com/quizizz-destination-bkt/33bfdf6a-2d05-4646-a446-aac601803de7.jpg"
+},
+"answerIndex": 0,
+"time": 30000,
+"type": "MCQ"
+},
+{
+"_id": "54bf36fb15eaaa570c9ed5a6",
+"questionText": "He discovered the Theory of Electromagnetic Radiation.",
+"questionOptions": [
+"Comte de Buffon",
+"James Clerk Maxwell",
+"Max Plank",
+"Max Born"
+],
+"media": {
+"type": "img",
+"url": "https://s3-us-west-2.amazonaws.com/quizizz-destination-bkt/096e0b97-7d81-4e72-86a2-5c16d4013478.jpg"
+},
+"answerIndex": 1,
+"time": 30000,
+"type": "MCQ"
+},
+{
+"_id": "54bf36fb15eaaa570c9ed5a7",
+"questionText": "Discovered nuclear fission in 1939.",
+"questionOptions": [
+"Otto Hahn",
+"Gregor Mendel",
+"Sigmund Freud",
+"Thomas Edison"
+],
+"media": {
+"type": "img",
+"url": "https://s3-us-west-2.amazonaws.com/quizizz-destination-bkt/577b07a7-41fd-4438-aef0-1449e16612a5.jpg"
+},
+"answerIndex": 0,
+"time": 30000,
+"type": "MCQ"
+},
+{
+"_id": "54bf36fb15eaaa570c9ed5a8",
+"questionText": "Coined the term radioactivity.",
+"questionOptions": [
+"Richard Feynman",
+"Marcello Malpighi",
+"Neils Bohr",
+"Marie Curie"
+],
+"media": {
+"type": "img",
+"url": "https://s3-us-west-2.amazonaws.com/quizizz-destination-bkt/31cad155-dc41-4938-affe-63c8aa339eb0.jpg"
+},
+"answerIndex": 3,
+"time": 30000,
+"type": "MCQ"
+},
+{
+"_id": "54bf36fb15eaaa570c9ed5a9",
+"questionText": "Proved that the Earth wasn't the center of the universe.",
+"questionOptions": [
+"Nicolaus Copernicus",
+"Aristotle",
+"Archimedes",
+"William Harvey"
+],
+"media": {
+"type": "img",
+"url": "https://s3-us-west-2.amazonaws.com/quizizz-destination-bkt/dccf67aa-4d1a-4c99-b159-73c123faa8e6.jpg"
+},
+"answerIndex": 0,
+"time": 30000,
+"type": "MCQ"
+},
+{
+"_id": "54bf36fb15eaaa570c9ed5aa",
+"questionText": "Created the periodic table of elements.",
+"questionOptions": [
+"Marie Curie",
+"Niels Bohr",
+"Enrico Fermi",
+"Dmitri Mendeleev"
+],
+"media": {
+"type": "img",
+"url": "https://s3-us-west-2.amazonaws.com/quizizz-destination-bkt/c8323f71-a035-479c-ac91-cc682ff0edb8.jpg"
+},
+"answerIndex": 3,
+"time": 30000,
+"type": "MCQ"
+},
+{
+"_id": "54bf36fb15eaaa570c9ed5ab",
+"questionText": "\"Everything that goes up must come down.\"",
+"questionOptions": [
+"Max Planck",
+"Isaac Newton",
+"Albert Einstein",
+"Justus Liebig"
+],
+"media": {
+"type": "img",
+"url": "https://s3-us-west-2.amazonaws.com/quizizz-destination-bkt/f4e57032-e54f-429b-b3f0-e04f74ade6ad.jpg"
+},
+"answerIndex": 1,
+"time": 30000,
+"type": "MCQ"
+},
+{
+"_id": "54bf36fb15eaaa570c9ed5ac",
+"questionText": "He discovered the Theory of Relativity",
+"questionOptions": [
+"Harold Weinstein",
+"John Nash",
+"Albert Einstein",
+"Christiaan Huygens"
+],
+"media": {
+"type": "img",
+"url": "https://s3-us-west-2.amazonaws.com/quizizz-destination-bkt/8317dffa-1fbf-490e-80d8-a11188e03b4b.jpg"
+},
+"answerIndex": 2,
+"time": 30000,
+"type": "MCQ"
+}
+]
+}

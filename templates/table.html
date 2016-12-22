@@ -1,0 +1,25 @@
+Table Data
+<table>
+	<tr>
+	<th> &nbsp; </th>
+	{% for player in players_data %}
+		<th> {{ player }} </th>
+	{% endfor %} </tr>
+	{% for item in questions_data %}
+		<tr>
+			{% for question in item %}
+				{% if question == 1 %}
+					<td>&#10004;</td>
+				{% else %}
+					{% if question == 0  %}
+						<td>&nbsp;</td>
+					
+					{% else %}
+						<td> {{ question }} </td>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		</tr>
+	{% endfor %}
+
+</table>

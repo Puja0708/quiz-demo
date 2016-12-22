@@ -1,0 +1,26 @@
+LIST
+
+PLAYERS LIST : 
+{% for player in players %}
+	<li>
+		{% for item in player %}
+		<ul>
+			<li> {{ item }} </li>
+		</ul>
+	</li>
+		{% endfor %}
+{% endfor %}
+
+
+<br/><br/>
+QUESTIONS LIST
+
+{% for player in questions %}
+	<li>
+		{% for item in player %}
+		<ul>
+			<li> {{ item }} </li>
+		</ul>
+	</li>
+		{% endfor %}
+{% endfor %}
