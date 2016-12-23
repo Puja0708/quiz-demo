@@ -6,26 +6,75 @@
     	google.charts.load('current', {'packages':['corechart']});
       
     // Set a callback to run when the Google Visualization API is loaded.
-    	google.charts.setOnLoadCallback(drawChart);
+    	google.charts.setOnLoadCallback(drawChartPlayers);
+    	google.charts.setOnLoadCallback(drawChartQuestions);
 
     	function drawChartPlayers(){
-    		var data = google.visualization.arrayToDataTable({{ players_data }});
+    		var data = [];
+    		{% for item in players_data %}
+    			var data2 = [];
+    			// var name = item[0];
+
+    			{% for details in item %};
+
+    				var test = '{{ details }}';
+    				var name = test.split('&#39;').join("'");
+    				data2.push(name);
+    			{% endfor %}
+    			data.push(data2);
+    		{% endfor %}
+    		var data_final = [];
+    		data_final[0] = ["Player", "Correct Responses"];
+    		for (i = 0; i < data.length; i++) {
+    			var data_formatted = [];
+    			var name = data[i][0];
+    			var val = parseInt(data[i][1]);
+    			data_formatted = [name, val];
+    			data_final.push(data_formatted);
+
+    		} 
+    		// var data = google.visualization.arrayToDataTable({{ players_data }});
 	        var options = {
-	          title: 'My Daily Activities',
+	          title: 'Player vs Correst Responses',
 	          is3D: true,
 	        };
 	        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
+	        // console.log(JSON.stringify(data_final));
+	        var data_test = google.visualization.arrayToDataTable(data_final);
+        chart.draw(data_test, options);
     	}
 
     	function drawChartQuestions(){
-    		var data = google.visualization.arrayToDataTable({{ questions_data }});
+    		var data = [];
+    		{% for item in questions_data %}
+    			var data2 = [];
+    			{% for details in item %}
+    				var test = '{{ details }}';
+    				var name = test.split('&#39;').join("'");
+    				data2.push(name);
+    			{% endfor %}
+    			data.push(data2);
+    		{% endfor %}
+
+    		var data_final = [];
+    		data_final[0] = ["Player", "Correct Responses"];
+    		for (i = 0; i < data.length; i++) {
+    			var data_formatted = [];
+    			var name = data[i][0];
+    			var val = parseInt(data[i][1]);
+    			data_formatted = [name, val];
+    			data_final.push(data_formatted);
+
+    		} 
+    		// var data = google.visualization.arrayToDataTable({{ questions_data }});
 	        var options = {
-	          title: 'My Daily Activities',
+	          title: 'Questions vs Correst Responses',
 	          is3D: true,
 	        };
 	        var chart = new google.visualization.BarChart(document.getElementById('chart_div_player'));
-        chart.draw(data, options);
+	        console.log(JSON.stringify(data_final));
+	        var data_test = google.visualization.arrayToDataTable(data_final);
+        chart.draw(data_test, options);
     	}
     
     </script>

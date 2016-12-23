@@ -57,7 +57,6 @@ def table(request):
 		question_ids.append(question['_id'])
 	final_array = []
 	total_players = len(player_names)
-	print 'aaaaaaaaaaaaaaaaaa',total_players
 	count = 0
 	diff = len(question_ids) - total_players if len(question_ids)>total_players else 0
 	for i in xrange(total_players):
@@ -67,11 +66,9 @@ def table(request):
 		for question in question_ids:
 			for response in response_data:
 				if response['questionId'] == question  and response['playerId'] == player_names[i] and response['ic'] :
-					# print 1
 					answer = 1
 					responses.append(answer)
 				elif response['questionId'] == question  and response['playerId'] == player_names[i] and not response['ic'] :
-					# print 0
 					answer = 0
 					responses.append(answer)
 		if diff>0:
@@ -94,9 +91,7 @@ def charts(request):
 		for response in response_data:
 			if response['playerId'] == player['id'] and response['ic']  :
 					number_of_correct_responses += 1
-		player_name =  unicode(str(player['id']).split("'")[0], "utf-8") 
+		player_name =  str(str(player['id']).split("'")[0]) 
 		players_array.append([player_name,number_of_correct_responses])
-	print players_array
-	print question_array
 	return render_to_response('charts.html', { 'players_data': players_array, 'questions_data' : question_array})
 
